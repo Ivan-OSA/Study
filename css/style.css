@@ -59,8 +59,8 @@
 .item_img img {
   max-width: 400px;
   max-height: 500px;
-  background-size: cover;
-  background-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .item_p p {

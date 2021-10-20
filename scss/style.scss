@@ -48,8 +48,8 @@
 .item_img img {
   max-width: 400px;
   max-height: 500px;
-  -o-object-fit: cover;
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .item_p {
